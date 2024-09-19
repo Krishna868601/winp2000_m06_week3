@@ -43,44 +43,70 @@ The wide variety of distributions allows Linux to cater to diverse user needs, f
 
 ## Basic Linux Commands
 Linux commands form the backbone of navigating and managing a Linux system. Understanding these basic commands helps users interact with the system efficiently via the terminal. Below are some of the most commonly used Linux commands:
+
 - ls:
+
 *Lists files and directories.*
+
 This command displays the contents of a directory, showing files and subdirectories.
 `ls`
 
 - **cd:**
+
 *Change directories.*
+
 This command is used to navigate between directories. To go to a specific directory, provide its path.
+
 `cd /home/user/Documents`
+
 - **pwd:**
-Print working directory.
+
+*Print working directory.*
+
 Shows the current directory you're working in, helping you confirm your location within the file system.
+
 `pwd`
 
 - **mkdir:**
-Create a new directory.
+
+*Create a new directory.*
+
 Allows you to create a new directory in the current working directory or a specified path.
+
 `mkdir new_folder`
 
 - **cp:**
-Copy files or directories.
+
+*Copy files or directories.*
+
 Copies files from one location to another. You can also use options like -r to copy directories recursively.
+
 `cp file.txt /home/user/backup/`
 
 - **mv:**
-Move or rename files or directories.
+
+*Move or rename files or directories.*
+
 Moves a file or directory to a new location or renames it.
+
 `mv file.txt /home/user/Documents/`
 
 - **rm:**
-Remove files or directories.
+
+*Remove files or directories.*
+
 Deletes files or directories. Use -r to remove directories and their contents recursively. Be cautious with this command as deletions are typically permanent.
+
 `rm file.txt1`
+
 `rm -r old_folder/`
 
 - **sudo:**
-Execute a command as the superuser.
+
+*Execute a command as the superuser.*
+
 This command allows you to perform administrative tasks with elevated privileges. It's often used when installing software or making system-wide changes.
+
 `sudo apt update`
 
 ## Conclusion
